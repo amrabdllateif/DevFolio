@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devfolio</title>
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Devfolio</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" aria-current="page">Home <span
+                class="visually-hidden">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="work">work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog">blog</a>
+          </li>
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              Treeview menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Dropdown item 2 &raquo;
+                </a>
+                <ul class="submenu dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 3 &raquo;
+                    </a>
+                    <ul class="submenu dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Multi level 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Multi level 2</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 4</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Submenu item 5</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+              <li><a class="dropdown-item" href="#"> Dropdown item 4 </a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="vh-100 d-flex justify-content-center align-items-center">
+    <div class="content text-center">
+      <h1 class="text-white fw-bold">I am Morgan Freeman</h1>
+      <h2 class="text-white fw-bold">Designer|</h2>
+    </div>
+  </header>
+  <section class="min-vh-100 about d-flex justify-content-center align-items-center">
+    <div class="container my-sm-5 py-sm-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="./img/testimonial-2.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-sm-8">
+              <ul class="list-unstyled my-3">
+                <li class="my-2">
+                  <span class="fw-bold">Name:</span> Morgan Freeman
+                </li>
+                <li class="my-2">
+                  <span class="fw-bold">Profile:</span>full stack developer
+                </li>
+                <li class="my-2">
+                  <span class="fw-bold">Email:</span> contact@example.com
+                </li>
+                <li class="my-2">
+                  <span class="fw-bold">Phone:</span> (617) 557-0089
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3>Skill</h3>
+              <h4 class="h6">HTML 85%</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <h4 class="h6">CSS 75%</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <h4 class="h6">PHP 50%</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <h4 class="h6">JAVASCRIPT 90%</h4>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="position-relative mb-4">About me</h2>
+          <p class="text-muted lh-lg">
+            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Praesent sapien massa, convallis a pellentesque nec, egestas non
+            nisi. Nulla porttitor accumsan tincidunt.
+          </p>
+          <p class="text-muted lh-lg">
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum
+            ac diam sit amet quam vehicula elementum sed sit amet dui.
+            porttitor at sem.
+          </p>
+          <p class="text-muted lh-lg">
+            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut
+            lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services d-flex justify-content-center align-items-center min-vh-100 bg-light">
+    <div class="container px-5">
+      <div class="row text-center gx-3 gy-5">
+        <div class="col-12">
+          <h2 class="text-uppercase">services</h2>
+          <p class="text-muted">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="p-2 border rounded-5 bg-white shadow">
+            <i class="fa-3x border border-5 border-info p-4 rounded-circle fa-solid fa-briefcase"></i>
+            <h3 class="h5">WEB DESIGN</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat! Quia, provident vitae! Magni
+              tempora perferendis eum non provident.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="p-2 border rounded-5 bg-white shadow">
+            <i class="fa-3x border border-5 border-info p-4 rounded-circle fa-solid fa-briefcase"></i>
+            <h3 class="h5">WEB DEVELOPMENT</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat! Quia, provident vitae! Magni
+              tempora perferendis eum non provident.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="p-2 border rounded-5 bg-white shadow">
+            <i class="fa-3x border border-5 border-info p-4 rounded-circle fa-solid fa-briefcase"></i>
+            <h3 class="h5">PHOTOGRAPHY</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat! Quia, provident vitae! Magni
+              tempora perferendis eum non provident.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="p-2 border rounded-5 bg-white shadow">
+            <i class="fa-3x border border-5 border-info p-4 rounded-circle fa-solid fa-briefcase"></i>
+            <h3 class="h5">RESPONSIVE DESIGN</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat! Quia, provident vitae! Magni
+              tempora perferendis eum non provident.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="p-2 border rounded-5 bg-white shadow">
+            <i class="fa-3x border border-5 border-info p-4 rounded-circle fa-solid fa-briefcase"></i>
+            <h3 class="h5">GRAPHIC DESIGN</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat! Quia, provident vitae! Magni
+              tempora perferendis eum non provident.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="p-2 border rounded-5 bg-white shadow">
+            <i class="fa-3x border border-5 border-info p-4 rounded-circle fa-solid fa-briefcase"></i>
+            <h3 class="h5">MARKETING SERVICES</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              adipisci eaque autem fugiat! Quia, provident vitae! Magni
+              tempora perferendis eum non provident.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="statistics my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-3 text-center">
+          <div>
+            <i class="fa fa-solid fa-arrow-alt-circle-down"></i>
+            <span class="h3 d-block">450</span>
+            <p>WORKS COMPLETED</p>
+          </div>
+          <div class="col-3 text-center">
+            <div>
+              <i class="fa fa-solid fa-arrow-alt-circle-down"></i>
+              <span class="h3 d-block">450</span>
+              <p>WORKS COMPLETED</p>
+            </div>
+            <div class="col-3 text-center">
+              <div>
+                <i class="fa fa-solid fa-arrow-alt-circle-down"></i>
+                <span class="h3 d-block">450</span>
+                <p>WORKS COMPLETED</p>
+              </div>
+              <div class="col-3 text-center">
+                <div>
+                  <i class="fa fa-solid fa-arrow-alt-circle-down"></i>
+                  <span class="h3 d-block">450</span>
+                  <p>WORKS COMPLETED</p>
+                </div>
+
+
+              </div>
+
+
+            </div>
+          </div>
+  </section>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+</body>
+
+</html>

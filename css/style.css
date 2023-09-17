@@ -1,0 +1,35 @@
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/hero-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+header h1{
+    font-size: 3rem;
+}
+
+.about h2::after{
+  content: "";
+  width: 20%;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #09c;
+}
+section.statistics{
+  height: 50vh;
+  background: linear-gradient(rgba(0, 120, 255, 0.5),rgba(0, 120, 255, 0.5)),
+  url("../img/counters-bg.jpg") no-repeat center center fixed;
+ 
+}
+.container
+{
+  display: flex;
+  align-items: center;
+  justify-self: stretch;
+}
+
